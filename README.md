@@ -1,24 +1,90 @@
-# Modelo 3
+# Site Jurídico — Minimalista
 
-Implement exactly the screenshot and nothing else
+## 1. Sobre o projeto
 
-This project was built with [Lovable](https://lovable.dev).
+O modelo Minimalista foi desenvolvido para advogados que valorizam simplicidade, organização e elegância.
 
-## Build with Lovable
+Sua proposta é apresentar as informações profissionais de maneira objetiva, utilizando espaços amplos, tipografia moderna e poucos elementos visuais.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e732dd77-28de-4399-8af8-dff4e788b367).
+O resultado é um site limpo, sofisticado e fácil de navegar.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## 2. Identidade visual
 
-## Development
+A identidade utiliza:
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+- Branco como cor predominante.
+- Preto grafite para títulos e elementos importantes.
+- Cinza claro para fundos e divisões.
+- Tipografia moderna e elegante.
+- Espaçamento generoso.
+- Elementos visuais discretos.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## 3. Estrutura do site
+
+O site possui cinco seções:
+
+1. **Início:** apresentação objetiva do profissional.
+2. **Sobre:** biografia e informações profissionais.
+3. **Áreas de atuação:** apresentação dos serviços jurídicos.
+4. **Contato:** canais de comunicação.
+5. **Rodapé:** informações institucionais.
+
+## 4. Personalização
+
+Todos os dados variáveis devem estar centralizados em:
+
+`src/config/site.ts`
+
+Informações disponíveis para alteração:
+
+- Nome do advogado.
+- Nome do escritório.
+- OAB/UF.
+- Telefone.
+- WhatsApp.
+- E-mail.
+- Endereço.
+- Cidade.
+- Biografia.
+- Áreas de atuação.
+- Fotografia.
+- Logotipo.
+- Redes sociais.
+- Horários de atendimento.
+- Configurações de SEO.
+
+A estrutura foi planejada para permitir a personalização de novos clientes sem necessidade de alterar o layout.
+
+## 5. Organização das imagens
+
+Diretório:
+
+`public/images/`
+
+Arquivos recomendados:
+
+- `logo.png`
+- `advogado.jpg`
+- `escritorio.jpg`
+
+## 6. Tecnologias
+
+- React.
+- TypeScript.
+- Vite.
+- CSS.
+- Componentes reutilizáveis.
+
+## 7. Publicação
+
+O projeto está preparado para publicação em serviços de hospedagem compatíveis com aplicações front-end, como Vercel e Cloudflare Pages.
+
+O domínio personalizado pode ser configurado após a publicação.
+
+## 8. Observações
+
+O conteúdo deve ser objetivo, verdadeiro e informativo.
+
+Não utilizar depoimentos fictícios, promessas de resultados ou informações profissionais não verificadas.
+
+**Objetivo do modelo:** proporcionar uma presença digital elegante, moderna e sem excessos visuais.
